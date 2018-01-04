@@ -120,8 +120,6 @@ export const styles = theme => {
         pointerEvents: 'none', // Transparent to the hover style.
       },
       '&:hover:not($disabled):before': {
-        backgroundColor: theme.palette.text.primary,
-        height: 2,
       },
       '&$disabled:before': {
         background: 'transparent',
